@@ -1,16 +1,15 @@
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 156px;
-}
-
 form {
   padding: 9px;
   text-align: center;
 }
 
+#glogo {
+  display: block;
+  margin: 156px auto auto auto;
+}
+
 #fcontent {
+  position: relative;
   padding: 10px 202px 15px 201px;
   border-style: solid;
   border-radius: 100px;
@@ -18,11 +17,29 @@ form {
 
 }
 
+#sicon {
+  height: 25px;
+  width: 25px;
+  position:absolute;
+  left: 460px;
+  right: auto; 
+  top: 283px;
+}
+
+#micon {
+  height: 34px;
+  width: 34px;
+  position:absolute;
+  left: auto;
+  right: 461px; 
+  top: 280px;
+}
+
 #button1 {
   background-color: #f4f4f4;
   color: #676b70;
   width: 127px;
-  height: 33px;
+  height: 37px;
   position: relative;
   right: 10px;
   top: 31px;
@@ -30,7 +47,6 @@ form {
   border: 0px solid rgb(243, 243, 243);
   border-radius: 3px;
   font-size: 14px;
-
 }
 
 #button2 {
